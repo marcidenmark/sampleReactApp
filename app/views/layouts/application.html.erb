@@ -6,11 +6,13 @@
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
-    <%= javascript_pack_tag 'application' %>
+    <%= javascript_pack_tag 'hello_react' %>
+    <!-- this is a react componenet -->
     <!-- java script stuff that's not react -->
   </head>
 
   <body>
+   <h1>hello</h1>
     <%= yield %>
   </body>
 </html>
